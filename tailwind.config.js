@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-// import bob from '../bree_uncouth/src/assets/images/kyiv_buildings1.png'
 
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
@@ -12,8 +11,7 @@ module.exports = {
         // grotesk: ['Space Grotesk', 'sans-serif'],
       },
       backgroundImage: {
-        kyiv_buildings:
-          "url('../bree_uncouth/src/assets/images/kyiv_buildings.png')",
+        kyiv_buildings: "url('./assets/images/kyiv_buildings.png')",
 
         // "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/images/kyiv_buildings.png')",
       },
