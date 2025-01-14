@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// import bob from '../bree_uncouth/src/assets/images/kyiv_buildings1.png'
+
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -11,7 +13,9 @@ module.exports = {
       },
       backgroundImage: {
         kyiv_buildings:
-          "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/images/kyiv_buildings.png')",
+          "url('../bree_uncouth/src/assets/images/kyiv_buildings.png')",
+
+        // "url('/Users/davidhardin/sandbox/bree_uncouth/bree_uncouth_milosz/bree_uncouth/src/assets/images/kyiv_buildings.png')",
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 0s linear infinite',
