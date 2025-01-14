@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/bree_uncouth/static/css/main.0ae03a82.css",
+    "main.js": "/bree_uncouth/static/js/main.db6420e3.js",
+    "static/media/kyiv_buildings.png": "/bree_uncouth/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
+    "static/media/carl_sagan1.jpg": "/bree_uncouth/static/media/carl_sagan1.9efd5067d5bb56073b78.jpg",
+    "static/media/carl_sagan2.jpg": "/bree_uncouth/static/media/carl_sagan2.abf9090650250d03e490.jpg",
+    "static/media/in_a_square.jpg": "/bree_uncouth/static/media/in_a_square.981353854b2d21437f05.jpg",
+    "static/media/insecurity_exhibit.jpg": "/bree_uncouth/static/media/insecurity_exhibit.b9d91541a8f8b30423a2.jpg",
+    "static/media/construction_twilight.jpg": "/bree_uncouth/static/media/construction_twilight.0765f2c44cf4bf2df99b.jpg",
+    "static/media/mass_housing.png": "/bree_uncouth/static/media/mass_housing.8ca7c8e14a753d454c50.png",
+    "static/media/yk_fence.jpg": "/bree_uncouth/static/media/yk_fence.c60b6419906a17e37be8.jpg",
+    "static/media/jsah.png": "/bree_uncouth/static/media/jsah.8465968f4a1e6bd06ee1.png",
+    "static/media/back_porch.jpg": "/bree_uncouth/static/media/back_porch.efb41b599753665c52ac.jpg",
+    "static/media/aerial_map.jpg": "/bree_uncouth/static/media/aerial_map.08d7e5126a16806f52da.jpg",
+    "static/media/kyiv_kate_color.jpg": "/bree_uncouth/static/media/kyiv_kate_color.3e0dc005b9824109657b.jpg",
+    "static/media/bnw_crane.jpg": "/bree_uncouth/static/media/bnw_crane.1a6670477a27bb514f0e.jpg",
+    "static/media/soviet_apart.jpg": "/bree_uncouth/static/media/soviet_apart.db2c7826ca1b2e99479d.jpg",
+    "static/media/grand_old.jpg": "/bree_uncouth/static/media/grand_old.acb7112ea41b3244839e.jpg",
+    "static/media/new_books.jpg": "/bree_uncouth/static/media/new_books.4f883fcd691080191380.jpg",
+    "static/media/italians.jpg": "/bree_uncouth/static/media/italians.e3c133660687f05affa4.jpg",
+    "static/media/green_cover.jpg": "/bree_uncouth/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
+    "index.html": "/bree_uncouth/index.html",
+    "main.0ae03a82.css.map": "/bree_uncouth/static/css/main.0ae03a82.css.map",
+    "main.db6420e3.js.map": "/bree_uncouth/static/js/main.db6420e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae03a82.css",
+    "static/js/main.db6420e3.js"
+  ]
+}
