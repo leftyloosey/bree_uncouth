@@ -1,8 +1,5 @@
 import { useEffect } from 'react'
-import construction_twilight from '../assets/images/construction_twilight.jpg'
 import in_a_square from '../assets/images/in_a_square.jpg'
-import carl_sagan1 from '../assets/images/carl_sagan1.jpg'
-import carl_sagan2 from '../assets/images/carl_sagan2.jpg'
 import sagan_copy from '../assets/images/Sagan_copy.jpg'
 import wesley_copy from '../assets/images/Wesley_copy.jpg'
 import housing_ms from '../assets/images/housing_MS.jpg'
