@@ -1,7 +1,10 @@
 {
   "files": {
     "main.css": "/bree_uncouth/static/css/main.0ae03a82.css",
-    "main.js": "/bree_uncouth/static/js/main.db6420e3.js",
+    "main.js": "/bree_uncouth/static/js/main.da781676.js",
+    "static/media/Sagan_copy.jpg": "/bree_uncouth/static/media/Sagan_copy.2358fb379340b91fca60.jpg",
+    "static/media/housing_MS.jpg": "/bree_uncouth/static/media/housing_MS.a9d11c35ad44dc92304f.jpg",
+    "static/media/Wesley_copy.jpg": "/bree_uncouth/static/media/Wesley_copy.9fb01406ae03017b6855.jpg",
     "static/media/kyiv_buildings.png": "/bree_uncouth/static/media/kyiv_buildings.7f45d10aa275525bd199.png",
     "static/media/carl_sagan1.jpg": "/bree_uncouth/static/media/carl_sagan1.9efd5067d5bb56073b78.jpg",
     "static/media/carl_sagan2.jpg": "/bree_uncouth/static/media/carl_sagan2.abf9090650250d03e490.jpg",
@@ -22,10 +25,10 @@
     "static/media/green_cover.jpg": "/bree_uncouth/static/media/green_cover.c4b8f8a8027b8177866e.jpg",
     "index.html": "/bree_uncouth/index.html",
     "main.0ae03a82.css.map": "/bree_uncouth/static/css/main.0ae03a82.css.map",
-    "main.db6420e3.js.map": "/bree_uncouth/static/js/main.db6420e3.js.map"
+    "main.da781676.js.map": "/bree_uncouth/static/js/main.da781676.js.map"
   },
   "entrypoints": [
     "static/css/main.0ae03a82.css",
-    "static/js/main.db6420e3.js"
+    "static/js/main.da781676.js"
   ]
 }
