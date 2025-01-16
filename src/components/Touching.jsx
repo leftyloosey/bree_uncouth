@@ -32,7 +32,7 @@ const Touching = ({ isOpen, menuShut }) => {
         <ParaWindow picture={in_a_square} text={p3} />
         <ParaWindow picture={ms_outdoor} text={p4} />
         <p className='ml-6'>
-          <i>Student work by Carl Sagan and John Wesley</i>
+          <i>Student work by Sagan Gotberg and Wesley Galarza</i>
         </p>
         <div className='text-white mt-8'>.</div>
       </div>
