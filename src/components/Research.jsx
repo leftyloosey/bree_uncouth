@@ -18,69 +18,70 @@ import italians from '../assets/images/italians.jpg'
 const soviet_union_apart_tile = {
   link: 'https://www.cornellpress.cornell.edu/book/9781501771200/taking-the-soviet-union-apart-room-by-room/#bookTabs=1',
   img: soviet_union_apart,
+  blurb: 'Taking the Soviet Union Apart',
 }
 const jsah_tile = {
-  link: 'https://www.platformspace.net/translations/individually-generated-building-modifications',
+  link: 'https://online.ucpress.edu/jsah/article-abstract/80/4/460/119541/Transforming-the-Architecture-of-FoodFrom-the',
   img: jsah,
+  blurb: 'Transforming the Architecture of Food',
 }
 const mass_housing_tile = {
   link: 'https://dom-publishers.com/products/mass-housing-in-ukraine-hardcover',
   img: mass_housing,
+  blurb: 'Mass Housing in Ukraine',
 }
 const grand_old_tile = {
   link: 'https://www.bauwelt.de/rubriken/betrifft/Odesa-Wohnungsbau-an-vorderster-Front-3863259.html',
   img: grand_old,
+  blurb: 'A Unit of Homemaking',
 }
 const new_books_tile = {
   link: 'https://newbooksnetwork.com/taking-the-soviet-union-apart-room-by-room',
   img: new_books,
+  blurb: 'Monumental Landscapes and the Politics of Place',
 }
 const exhibit_poster_tile = {
   link: 'https://mississippihousing.wixsite.com/mshousingproject/',
   img: exhibit_poster,
+  blurb: 'Rural Mass Housing in Ukraine',
 }
 const back_porch_tile = {
   link: 'https://www.platformspace.net/home/individually-generated-building-modifications-in-response-to-housing-precarity',
   img: back_porch,
+  blurb: 'Housing Insecurity in Mississippi',
 }
 const cover_issue_tile = {
   link: 'https://ewjus.com/index.php/ewjus/article/view/374',
   img: cover_issue,
+  blurb: 'Finding Shelter from Russia',
 }
 const aerial_map_tile = {
   link: 'https://www.platformspace.net/home/finding-shelter-from-russia-a-city-guide',
   img: aerial_map,
+  blurb: 'New Researcher Award',
 }
 const arcc_tile = {
   link: 'https://www.arcc-arch.org/meet-the-arcc-2024-awards-recipeints/',
   img: arcc,
+  blurb: 'Interview: Taking the Soviet Union Apart',
 }
 const bnw_crane_tile = {
   link: 'https://journal.eahn.org/article/id/7603/',
   img: bnw_crane,
+  blurb: 'Individually Generated Building Modifications',
 }
 const yk_fence_tile = {
   link: 'https://www.cca.qc.ca/en/events/95620/research-fellow-seminar-rural-mass-housing-in-ukraine',
   img: yk_fence,
+  blurb: 'Bauwelt: Odesa',
 }
 const italians_tile = {
   link: 'https://re.public.polimi.it/handle/11311/1277205?mode=complete',
   img: italians,
+  blurb: '“Invisible” User-Generated Change',
 }
 
 const Research = ({ menuShut }) => {
-  // function TimerEffect() {
-  //   setTimeout(() => {
-  //     menuShut()
-  //   }, 100)
-  // }
-
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     menuShut()
-  //   }, 100)
-  // })
-
   function TimerEffect() {
     useEffect(() => {
       setTimeout(() => {

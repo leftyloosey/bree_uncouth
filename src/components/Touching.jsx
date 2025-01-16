@@ -1,12 +1,11 @@
 import { useEffect } from 'react'
-// import construction_crane from '../assets/images/construction_crane.jpg'
-// import clipboard_masks from '../assets/images/clipboard_masks.JPG'
-// import construction_indoors from '../assets/images/construction_indoors.jpg'
 import construction_twilight from '../assets/images/construction_twilight.jpg'
 import in_a_square from '../assets/images/in_a_square.jpg'
-// import in_a_square_zoom from '../assets/images/in_a_square_zoom.jpg'
 import carl_sagan1 from '../assets/images/carl_sagan1.jpg'
 import carl_sagan2 from '../assets/images/carl_sagan2.jpg'
+import sagan_copy from '../assets/images/Sagan_copy.jpg'
+import wesley_copy from '../assets/images/Wesley_copy.jpg'
+import housing_ms from '../assets/images/housing_MS.jpg'
 import ParaWindow from './ParaWindow'
 
 const Touching = ({ isOpen, menuShut }) => {
@@ -32,9 +31,9 @@ const Touching = ({ isOpen, menuShut }) => {
     <div className='w-3/4'>
       <div className='mt-10 md:mt-10'>
         <ParaWindow picture={in_a_square} text={p1} />
-        <ParaWindow picture={construction_twilight} text={p2} />
-        <ParaWindow picture={carl_sagan1} text={p3} />
-        <ParaWindow picture={carl_sagan2} text={p4} />
+        <ParaWindow picture={sagan_copy} text={p2} />
+        <ParaWindow picture={housing_ms} text={p3} />
+        <ParaWindow picture={wesley_copy} text={p4} />
         <div className='text-white mt-8'>.</div>
       </div>
     </div>

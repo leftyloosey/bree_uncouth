@@ -1,7 +1,7 @@
 import { useInView } from 'react-intersection-observer'
 
 const Tiley = ({ vis, project }) => {
-  const { link, img } = project
+  const { link, img, blurb } = project
 
   const InView = () => {
     const { ref, inView } = useInView({
@@ -22,9 +22,7 @@ const Tiley = ({ vis, project }) => {
             ref={ref}
             className='transition delay-700 max-w-60 font-medium lg:invisible lg:group-hover:visible'
           >
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text
+            {blurb}
           </p>
         </div>
         <a className='' href={link}>
