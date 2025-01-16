@@ -20,7 +20,7 @@ const Tiley = ({ vis, project }) => {
         >
           <p
             ref={ref}
-            className='transition delay-700 max-w-60 font-medium lg:invisible lg:group-hover:visible'
+            className='transition delay-700 max-w-60 min-w-60 h-32 flex items-center justify-center lg:invisible lg:group-hover:visible'
           >
             {blurb}
           </p>
@@ -41,11 +41,13 @@ const Tiley = ({ vis, project }) => {
   }
 
   return (
-    <div className=''>
-      <div className='mt-16 lg:mt-0'></div>
+    <>
       <InView />
-      {/* <div classNamesdiv> */}
-    </div>
+    </>
+    // <div className=''>
+    //   <div className='mt-16 lg:mt-0'></div>
+    //   <InView />
+    // </div>
   )
 }
 

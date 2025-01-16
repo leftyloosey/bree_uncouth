@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-// import LazyAnimation from './LazyAnimation'
 import Tiley from './Tiley'
 import soviet_union_apart from '../assets/images/soviet_apart.jpg'
 import jsah from '../assets/images/jsah.png'
@@ -23,7 +22,7 @@ const soviet_union_apart_tile = {
 const jsah_tile = {
   link: 'https://online.ucpress.edu/jsah/article-abstract/80/4/460/119541/Transforming-the-Architecture-of-FoodFrom-the',
   img: jsah,
-  blurb: 'Transforming the Architecture of Food',
+  blurb: 'The Architecture of Food',
 }
 const mass_housing_tile = {
   link: 'https://dom-publishers.com/products/mass-housing-in-ukraine-hardcover',
@@ -33,47 +32,47 @@ const mass_housing_tile = {
 const grand_old_tile = {
   link: 'https://www.bauwelt.de/rubriken/betrifft/Odesa-Wohnungsbau-an-vorderster-Front-3863259.html',
   img: grand_old,
-  blurb: 'A Unit of Homemaking',
+  blurb: 'Bauwelt: Odesa',
 }
 const new_books_tile = {
   link: 'https://newbooksnetwork.com/taking-the-soviet-union-apart-room-by-room',
   img: new_books,
-  blurb: 'Monumental Landscapes and the Politics of Place',
+  blurb: 'Interview: Taking the Soviet Union Apart',
 }
 const exhibit_poster_tile = {
   link: 'https://mississippihousing.wixsite.com/mshousingproject/',
   img: exhibit_poster,
-  blurb: 'Rural Mass Housing in Ukraine',
+  blurb: 'Housing Insecurity in Mississippi',
 }
 const back_porch_tile = {
   link: 'https://www.platformspace.net/home/individually-generated-building-modifications-in-response-to-housing-precarity',
   img: back_porch,
-  blurb: 'Housing Insecurity in Mississippi',
+  blurb: 'Individually Generated Building Modifications',
 }
 const cover_issue_tile = {
   link: 'https://ewjus.com/index.php/ewjus/article/view/374',
   img: cover_issue,
-  blurb: 'Finding Shelter from Russia',
+  blurb: 'Monumental Landscapes and the Politics of Place',
 }
 const aerial_map_tile = {
   link: 'https://www.platformspace.net/home/finding-shelter-from-russia-a-city-guide',
   img: aerial_map,
-  blurb: 'New Researcher Award',
+  blurb: 'Finding Shelter from Russia',
 }
 const arcc_tile = {
   link: 'https://www.arcc-arch.org/meet-the-arcc-2024-awards-recipeints/',
   img: arcc,
-  blurb: 'Interview: Taking the Soviet Union Apart',
+  blurb: 'New Researcher Award',
 }
 const bnw_crane_tile = {
   link: 'https://journal.eahn.org/article/id/7603/',
   img: bnw_crane,
-  blurb: 'Individually Generated Building Modifications',
+  blurb: 'A Unit of Homemaking',
 }
 const yk_fence_tile = {
   link: 'https://www.cca.qc.ca/en/events/95620/research-fellow-seminar-rural-mass-housing-in-ukraine',
   img: yk_fence,
-  blurb: 'Bauwelt: Odesa',
+  blurb: 'Housing Rural Ukraine',
 }
 const italians_tile = {
   link: 'https://re.public.polimi.it/handle/11311/1277205?mode=complete',

@@ -31,7 +31,7 @@ const CV = ({ menuShut }) => {
           Buildings-Landscapes-Cultures Program in 2019.
         </p>
         <p className='mt-2'>
-          I am an author of two books: Taking the Soviet Union Apart Room by
+          I am the author of two books: Taking the Soviet Union Apart Room by
           Room (NIUP/Cornell UP, 2023) and Mass Housing in Ukraine (co-authored
           with Philipp Meuser, DOM Publishers, 2024). My articles appear in the
           Journal of the Society of Architectural Historians, Architectural
