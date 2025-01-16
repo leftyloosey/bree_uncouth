@@ -1,32 +1,34 @@
 import React from 'react'
-
+import cv_pdf from '../assets/CV/CV_Malaia_December 2024.pdf'
 import kyiv_kate_color from '../assets/images/kyiv_kate_color.jpg'
-// import kyiv_kate_bnw from '../assets/images/kyiv_kate_bnw.png'
 
 const CV = ({ menuShut }) => {
+  const cvDownload = () => {
+    const pdfUrl = cv_pdf
+    const link = document.createElement('a')
+    link.href = pdfUrl
+    link.download = 'CV_Malaia_December 2024.pdf' // specify the filename
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
   return (
     <div onLoad={menuShut} onClick={menuShut} className='md:columns-2'>
       <div className='md:ml-4 m-2 md:mt-4 mt-4'>
-        <img
-          className='object-cover rounded-sm'
-          src={kyiv_kate_color}
-          alt=''
-          //   className='shadow-md mx-auto duration-200 w-60 hover:scale-105'
-        />
+        <img className='object-cover rounded-sm' src={kyiv_kate_color} alt='' />
       </div>
       <div className='m-2 break-inside-avoid-column'>
         {/* <p className='lg:blue2 md:red1'>hello there</p> */}
         <p className='md:pt-4'>
-          {/* <p className='mt-4 md:pt-16 '> */}I am an architectural historian
-          and Assistant Professor of Architecture at the University of Utah. My
-          research investigates the evolution of residential architecture in
-          times of socio-political change in relation to the collapse of the
-          USSR, and to the rising housing insecurity in North American cities. I
-          studied architecture at the National Academy of Fine Arts and
-          Architecture, Kyiv, Ukraine. I continued my studies at the School of
-          Architecture and Urban Planning, University of Wisconsin-Milwaukee,
-          where I received my PhD in the Buildings-Landscapes-Cultures Program
-          in 2019.
+          I am an architectural historian and Assistant Professor of
+          Architecture at the University of Utah. My research investigates the
+          evolution of residential architecture in times of socio-political
+          change in relation to the collapse of the USSR, and to the rising
+          housing insecurity in North American cities. I studied architecture at
+          the National Academy of Fine Arts and Architecture, Kyiv, Ukraine. I
+          continued my studies at the School of Architecture and Urban Planning,
+          University of Wisconsin-Milwaukee, where I received my PhD in the
+          Buildings-Landscapes-Cultures Program in 2019.
         </p>
         <p className='mt-2'>
           I am an author of two books: Taking the Soviet Union Apart Room by
@@ -48,7 +50,7 @@ const CV = ({ menuShut }) => {
             className='pt-4 font-semibold
            text-2xl hover:text-green-900'
           >
-            CV
+            <button onClick={cvDownload}>CV</button>
           </p>
         </p>
       </div>
