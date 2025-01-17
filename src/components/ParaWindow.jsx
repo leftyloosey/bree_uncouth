@@ -1,4 +1,5 @@
 import { Parallax } from 'react-scroll-parallax'
+
 const Picture = ({ pic }) => {
   return <img alt='' src={pic} className='shadow-2xl' />
 }

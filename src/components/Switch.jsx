@@ -1,14 +1,9 @@
-// import React, { useState } from 'react'
-
 const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
-  // const [isOpen, setIsOpen] = useState(false)
-
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
 
   return (
-    // <div className='flex flex-row justify-around'>
     <div className=''>
       <section className='flex flex-row justify-between p-1 pt-2 shadow-md fixed top-0 left-0 right-0 bg-white z-40'>
         <div className='text-4xl font-semibold pt-3 pl-3'>
@@ -27,19 +22,16 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
             <a href='#Research' onClick={() => handlePageChange('Research')}>
               Research
             </a>
-            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
           </span>
           <span className='group mr-32 md:mr-16 hover:text-black translate-y-1'>
             <a href='#Teaching' onClick={() => handlePageChange('Teaching')}>
               Teaching
             </a>
-            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
           </span>
           <span className='group mr-16 hover:text-black translate-y-1'>
             <a href='#CV' onClick={() => handlePageChange('About')}>
               About
             </a>
-            {/* <div className='mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100'></div> */}
           </span>
         </div>
         <button
@@ -80,36 +72,21 @@ const Switch = ({ currentPage, handlePageChange, isOpen, setIsOpen }) => {
                   className='border-t-2 hover:text-black text-slate-600 pt-1 text-left pl-1'
                   onClick={() => handlePageChange('Research')}
                 >
-                  <button
-                  // href='#Research'
-                  // onClick={() => handlePageChange('Research')}
-                  >
-                    Research
-                  </button>
+                  <button>Research</button>
                 </a>
                 <a
                   href='#Teaching'
                   onClick={() => handlePageChange('Teaching')}
                   className='border-t-2 hover:text-black text-slate-600 text-left pl-1'
                 >
-                  <button
-                  // href='#Teaching'
-                  // onClick={() => handlePageChange('Teaching')}
-                  >
-                    Teaching
-                  </button>
+                  <button>Teaching</button>
                 </a>
                 <a
                   href='#About'
                   onClick={() => handlePageChange('About')}
                   className='border-t-2 hover:text-black text-slate-600 mb-1 text-left pl-1'
                 >
-                  <button
-                  // href='#About'
-                  // onClick={() => handlePageChange('About')}
-                  >
-                    About
-                  </button>
+                  <button>About</button>
                 </a>
               </div>
             </div>

@@ -3,11 +3,10 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Research from './components/Research'
-import Touching from './components/Touching'
-// import Teaching from './components/Teaching'
-import Home from './components/Home'
-import About from './components/About'
+import Research from './pages/Research'
+import Teaching from './pages/Teaching'
+import Home from './pages/Home'
+import About from './pages/About'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -17,10 +16,8 @@ function App() {
       return <Research menuShut={menuShut} />
     }
     if (currentPage === 'Teaching') {
-      return <Touching isOpen={isOpen} menuShut={menuShut} />
-      // return <Teaching isOpen={isOpen} menuShut={menuShut} />
+      return <Teaching isOpen={isOpen} menuShut={menuShut} />
     }
-    // }
     if (currentPage === 'About') {
       return <About menuShut={menuShut} />
     }
