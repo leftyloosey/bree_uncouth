@@ -46,7 +46,7 @@ function App() {
           <Routes>
             <Route path='/portfolio' element={<Portfolio />} />
             <Route
-              path='/bree_uncouth'
+              path='/'
               element={
                 <>
                   <Nav
