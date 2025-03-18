@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ParallaxProvider } from 'react-scroll-parallax'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
