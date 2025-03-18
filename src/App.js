@@ -38,7 +38,7 @@ function App() {
   const menuShut = () => {
     if (isOpen === true) setIsOpen(false)
   }
-
+  // "homepage": "https://leftyloosey.github.io/bree_uncouth",
   return (
     <Router>
       <ParallaxProvider>
