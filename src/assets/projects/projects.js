@@ -11,6 +11,8 @@ import arcc from '../images/arcc.png'
 import bnw_crane from '../images/bnw_crane.jpg'
 import yk_fence from '../images/yk_fence.jpg'
 import italians from '../images/italians.jpg'
+import zupagrafika from '../images/zupagrafika.jpeg'
+import archive2020 from '../images/archive2020.jpg'
 
 export const projects = {
   soviet_union_apart_tile: {
@@ -78,5 +80,15 @@ export const projects = {
     link: 'https://re.public.polimi.it/handle/11311/1277205?mode=complete',
     img: italians,
     blurb: '“Invisible” User-Generated Change',
+  },
+  zupagrafika_tile: {
+    link: 'https://zupagrafika.com/shop/eastern-blocks-volume-2',
+    img: zupagrafika,
+    blurb: 'Eastern Blocks II',
+  },
+  archive2020_tile: {
+    link: 'https://archive-2020.biennial.ge/en/project/monumental-voids-and-the-new-political-common-space/17',
+    img: archive2020,
+    blurb: 'Monumental Voids',
   },
 }

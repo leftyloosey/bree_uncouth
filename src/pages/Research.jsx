@@ -44,6 +44,10 @@ const Research = ({ menuShut }) => {
 
       <Tiley project={projects.italians_tile} />
 
+      <Tiley project={projects.zupagrafika_tile} />
+
+      <Tiley project={projects.archive2020_tile} />
+
       <div className='w-64 h-64'></div>
     </div>
   )

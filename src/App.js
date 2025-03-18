@@ -64,14 +64,6 @@ function App() {
             />
 
             <Route path='/research' element={<PdfTeaching />} />
-            <Route
-              path='/test'
-              element={
-                <div>
-                  allo<p>allo!!!</p>
-                </div>
-              }
-            />
 
             <Route path='/portfolio' element={<PdfPortfolio />} />
           </Routes>
