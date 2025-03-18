@@ -41,9 +41,9 @@ function App() {
   }
   // "homepage": "https://leftyloosey.github.io/bree_uncouth",
   return (
-    <Router>
-      <Routes>
-        <ParallaxProvider>
+    <ParallaxProvider>
+      <Router>
+        <Routes>
           <div className='font-grotesk flex flex-col space-y-16'>
             <Route
               path='/'
@@ -63,20 +63,21 @@ function App() {
               }
             />
           </div>
-        </ParallaxProvider>
-        <Route path='/research' element={<PdfTeaching />} />
-        <Route
-          path='/test'
-          element={
-            <div>
-              allo<p>allo!!!</p>
-            </div>
-          }
-        />
 
-        <Route path='/portfolio' element={<PdfPortfolio />} />
-      </Routes>
-    </Router>
+          <Route path='/research' element={<PdfTeaching />} />
+          <Route
+            path='/test'
+            element={
+              <div>
+                allo<p>allo!!!</p>
+              </div>
+            }
+          />
+
+          <Route path='/portfolio' element={<PdfPortfolio />} />
+        </Routes>
+      </Router>
+    </ParallaxProvider>
   )
 }
 
