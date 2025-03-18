@@ -62,7 +62,7 @@ function App() {
                 </>
               }
             />
-            <Route path='/teaching_portfolio' element={<PdfPortfolio />} />
+            <Route path='/teaching' element={<PdfPortfolio />} />
             {/* <Route path='/ongoing_research' element={<PdfTeaching />} /> */}
             {/* <Route
               path='/bree_uncouth'
