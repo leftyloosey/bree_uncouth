@@ -9,7 +9,7 @@ import Teaching from './pages/Teaching'
 import Home from './pages/Home'
 import About from './pages/About'
 import PdfPortfolio from './pages/PdfPortfolio'
-// import PdfTeaching from './pages/PdfTeaching'
+import PdfTeaching from './pages/PdfTeaching'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -64,7 +64,7 @@ function App() {
               }
             />
             <Route path='/portfolio' element={<PdfPortfolio />} />
-            {/* <Route path='/ongoing_research' element={<PdfTeaching />} /> */}
+            <Route path='/research' element={<PdfTeaching />} />
             {/* <Route
               path='/bree_uncouth'
               element={<div className='h-screen'>{renderPage()}</div>}
