@@ -8,7 +8,8 @@ import Research from './pages/Research'
 import Teaching from './pages/Teaching'
 import Home from './pages/Home'
 import About from './pages/About'
-import Portfolio from './pages/Portfolio'
+import PdfPortfolio from './pages/PdfPortfolio'
+import PdfTeaching from './pages/PdfTeaching'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -44,7 +45,8 @@ function App() {
       <ParallaxProvider>
         <div className='font-grotesk flex flex-col space-y-16'>
           <Routes>
-            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/teaching_portfolio' element={<PdfPortfolio />} />
+            <Route path='/ongoing_research' element={<PdfTeaching />} />
             <Route
               path='/'
               element={
