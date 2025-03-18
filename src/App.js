@@ -40,6 +40,7 @@ function App() {
     if (isOpen === true) setIsOpen(false)
   }
   // "homepage": "https://leftyloosey.github.io/bree_uncouth",
+  // heya
   return (
     <Router>
       <ParallaxProvider>
@@ -62,7 +63,7 @@ function App() {
                 </>
               }
             />
-            <Route path='/PdfPortfolio' element={<PdfPortfolio />} />
+            <Route path='/portfolio' element={<PdfPortfolio />} />
             {/* <Route path='/ongoing_research' element={<PdfTeaching />} /> */}
             {/* <Route
               path='/bree_uncouth'
