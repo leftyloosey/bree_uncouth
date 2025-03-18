@@ -45,8 +45,6 @@ function App() {
       <ParallaxProvider>
         <div className='font-grotesk flex flex-col space-y-16'>
           <Routes>
-            <Route path='/teaching_portfolio' element={<PdfPortfolio />} />
-            <Route path='/ongoing_research' element={<PdfTeaching />} />
             <Route
               path='/'
               element={
@@ -64,6 +62,8 @@ function App() {
                 </>
               }
             />
+            <Route path='/teaching_portfolio' element={<PdfPortfolio />} />
+            {/* <Route path='/ongoing_research' element={<PdfTeaching />} /> */}
             {/* <Route
               path='/bree_uncouth'
               element={<div className='h-screen'>{renderPage()}</div>}
