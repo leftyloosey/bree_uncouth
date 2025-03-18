@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ParallaxProvider } from 'react-scroll-parallax'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Nav from './components/Nav'
 import Footer from './components/Footer'
@@ -7,6 +8,7 @@ import Research from './pages/Research'
 import Teaching from './pages/Teaching'
 import Home from './pages/Home'
 import About from './pages/About'
+import Portfolio from './pages/Portfolio'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home')
@@ -38,20 +40,49 @@ function App() {
   }
 
   return (
-    <ParallaxProvider>
-      <div className='font-grotesk flex flex-col space-y-16'>
-        <Nav
-          handleClick={handleClick}
-          isOpen={isOpen}
-          setIsOpen={setIsOpen}
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
-        <div className='h-screen'>{renderPage()}</div>
-        <div className=''>.</div>
-        <Footer className='' />
-      </div>
-    </ParallaxProvider>
+    <Router>
+      <ParallaxProvider>
+        <div className='font-grotesk flex flex-col space-y-16'>
+          <Routes>
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route
+              path='/bree_uncouth'
+              element={
+                <>
+                  <Nav
+                    handleClick={handleClick}
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    currentPage={currentPage}
+                    handlePageChange={handlePageChange}
+                  />
+                  <div className='h-screen'>{renderPage()}</div>
+                  <div className=''>.</div>
+                  <Footer className='' />
+                </>
+              }
+            />
+            {/* <Route
+              path='/bree_uncouth'
+              element={<div className='h-screen'>{renderPage()}</div>}
+            />
+            <Route path='/bree_uncouth' element={<div className=''>.</div>} />
+            <Route path='/bree_uncouth' element={<Footer />} /> */}
+
+            {/* <Nav
+              handleClick={handleClick}
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+              currentPage={currentPage}
+              handlePageChange={handlePageChange}
+            /> */}
+            {/* <div className='h-screen'>{renderPage()}</div>
+            <div className=''>.</div>
+            <Footer className='' /> */}
+          </Routes>
+        </div>
+      </ParallaxProvider>
+    </Router>
   )
 }
 
