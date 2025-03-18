@@ -63,8 +63,9 @@ function App() {
                 </>
               }
             />
-            <Route path='/portfolio' element={<PdfPortfolio />} />
             <Route path='/research' element={<PdfTeaching />} />
+
+            <Route path='/portfolio' element={<PdfPortfolio />} />
             {/* <Route
               path='/bree_uncouth'
               element={<div className='h-screen'>{renderPage()}</div>}
