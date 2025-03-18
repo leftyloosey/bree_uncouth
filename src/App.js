@@ -43,8 +43,8 @@ function App() {
   return (
     <ParallaxProvider>
       <Router>
-        <Routes>
-          <div className='font-grotesk flex flex-col space-y-16'>
+        <div className='font-grotesk flex flex-col space-y-16'>
+          <Routes>
             <Route
               path='/'
               element={
@@ -62,20 +62,20 @@ function App() {
                 </>
               }
             />
-          </div>
 
-          <Route path='/research' element={<PdfTeaching />} />
-          <Route
-            path='/test'
-            element={
-              <div>
-                allo<p>allo!!!</p>
-              </div>
-            }
-          />
+            <Route path='/research' element={<PdfTeaching />} />
+            <Route
+              path='/test'
+              element={
+                <div>
+                  allo<p>allo!!!</p>
+                </div>
+              }
+            />
 
-          <Route path='/portfolio' element={<PdfPortfolio />} />
-        </Routes>
+            <Route path='/portfolio' element={<PdfPortfolio />} />
+          </Routes>
+        </div>
       </Router>
     </ParallaxProvider>
   )
